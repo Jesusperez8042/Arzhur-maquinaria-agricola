@@ -4,10 +4,10 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 # URL del catálogo de productos
-URL_CATALOGO = "https://www.jardepot.com/agricultura/aspersoras-motor-a-gasolina/page/4"
+URL_CATALOGO = "https://www.jardepot.com/agricultura/canones-aspersores"
 
 # Carpeta para guardar imágenes
-CARPETA_DESCARGA = "imagenes_aspersora_motor"
+CARPETA_DESCARGA = "imagenes_nanones-aspersores"
 os.makedirs(CARPETA_DESCARGA, exist_ok=True)
 
 # Obtener el HTML de la página
